@@ -1,6 +1,12 @@
 # @param {Integer[]} height
 # @return {Integer}
 def max_area(height)
+  w = height.each_with_index do |i, index|
+    puts i
+    puts index
+  end
+  
+
     
 end
 
